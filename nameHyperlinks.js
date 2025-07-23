@@ -1,4 +1,5 @@
 /*vv SCRIPT FOR ADDING AUTOMATIC HYPERLINKS vv*/
+console.log("Is it working?");	
   const targetElement = document.querySelector('.article-content'); 
   const originalText = targetElement.innerHTML;
   const keywordsObj = {
