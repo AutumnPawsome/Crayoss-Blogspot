@@ -14,24 +14,14 @@ console.log("Is it working?");
   
   
   for (let i = 0; i < keywords.length; i++) {
-    
-   
-    const keyword = keywords[i]
-    const linkURL = keywordsObj[keywords[i]].link
-    
-    console.log(`${keyword}: ${linkURL}`);
-
-    const link = document.createElement('a');
-    link.href = linkURL;
-    link.textContent = keyword; // Set the link text to the keyword
-    
-    if (targetElement.textContent.includes(`${keyword}`) && linkURL !== window.location.href) {
-   	 targetElement.innerHTML = targetElement.innerHTML.replaceAll(`${keyword}`, link.outerHTML);
-	}
-    
-    /*if (targetElement.textContent.includes(`^`)) {
-   	 targetElement.innerHTML = targetElement.innerHTML.replace(`\`, '');
-	}*/
-
+    	// console.log(`${keyword}: ${linkURL}`);
+    	  const keyword = keywords[i];
+    	  const linkURL = keywordsObj[keywords[i]].link;
+    	  const link = document.createElement('a');
+    	  link.href = linkURL;
+    	  link.textContent = keyword; // Set the link text to the keyword
+    	  if (targetElement.textContent.includes(`${keyword}`) && linkURL !== window.location.href) {
+   	  	targetElement.innerHTML = targetElement.innerHTML.replaceAll(`${keyword}`, link.outerHTML);
+    	  }
   }
   /*^^ SCRIPT FOR ADDING AUTOMATIC HYPERLINKS ^^*/
