@@ -24,7 +24,7 @@ console.log("Is it working?");
     link.href = linkURL;
     link.textContent = keyword; // Set the link text to the keyword
     
-    if (targetElement.textContent.includes(`${keyword}`) && !window.location.href.includes(toLowerCase(`${keyword}`))) {
+    if (targetElement.textContent.includes(`${keyword}`) && !window.location.href.includes(`${keyword}`.toLowerCase())) {
    	 targetElement.innerHTML = targetElement.innerHTML.replaceAll(`${keyword}`, link.outerHTML);
 	}
     
