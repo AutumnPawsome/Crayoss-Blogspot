@@ -22,7 +22,7 @@ for (let i = 0; i < keywords.length; i++) {
     	link.href = linkURL;
     	link.textContent = keyword; // Set the link text to the keyword
     	if (targetElement.textContent.includes(`${keyword}`) && linkURL !== window.location.href) {
-   		targetElement.innerHTML = targetElement.innerHTML.replaceAll(`${keyword}`, link.outerHTML);
+   		targetElement.innerHTML = targetElement.innerHTML.replace(`${keyword}`, link.outerHTML);
     	}
   }
   /*^^ SCRIPT FOR ADDING AUTOMATIC HYPERLINKS ^^*/
