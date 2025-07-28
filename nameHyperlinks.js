@@ -8,6 +8,7 @@ const keywordsObj = {
 	"Mr. Mousey": {link: 'https://crayoss.blogspot.com/p/mr-mousey.html'},
 	Cooper: {link: 'https://crayoss.blogspot.com/p/cooper-computer_16.html'},
 	Sprout: {link: 'https://crayoss.blogspot.com/p/sprout.html'},
+	Pebble: {link: 'https://crayoss.blogspot.com/p/pebble.html'},
      	Stump: {link: 'https://crayoss.blogspot.com/p/stump-log-cat.html'},
 	Yoko: {link: 'https://crayoss.blogspot.com/p/yoko.html'},
    	Vivian: {link: 'https://crayoss.blogspot.com/p/vivian.html'} 	
