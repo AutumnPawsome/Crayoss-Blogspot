@@ -7,6 +7,7 @@ const keywordsObj = {
 	Blot: {link: 'https://crayoss.blogspot.com/p/blot.html'},
 	"Mr. Mousey": {link: 'https://crayoss.blogspot.com/p/mr-mousey.html'},
 	Cooper: {link: 'https://crayoss.blogspot.com/p/cooper-computer_16.html'},
+	Dandy: {link: 'https://crayoss.blogspot.com/p/dandy.html'},
 	Sprout: {link: 'https://crayoss.blogspot.com/p/sprout.html'},
 	Shelly: {link: 'https://crayoss.blogspot.com/p/shelly.html'},
 	Pebble: {link: 'https://crayoss.blogspot.com/p/pebble.html'},
@@ -28,3 +29,4 @@ for (let i = 0; i < keywords.length; i++) {
     	}
   }
   /*^^ SCRIPT FOR ADDING AUTOMATIC HYPERLINKS ^^*/
+
