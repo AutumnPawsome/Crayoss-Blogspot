@@ -18,10 +18,10 @@
     padding-right: 20px;
     transition: transform 0.3s ease;
   }
-  button .active {
+  .active {
     cursor: pointer;
   	background-color: #c5826a;
   }
-  button .active:hover {
+  .active:hover {
   	transform: scale(1.05);
   }
