@@ -6,14 +6,14 @@ const keywordsObj = {
 	Yatta: {link: 'https://crayoss.blogspot.com/p/yatta.html'},
 	Blot: {link: 'https://crayoss.blogspot.com/p/blot.html'},
 	"Mr. Mousey": {link: 'https://crayoss.blogspot.com/p/mr-mousey.html'},
-	Cooper: {link: 'https://crayoss.blogspot.com/p/cooper-computer_16.html'},
+	Cooper: {link: 'https://crayoss.blogspot.com/p/cooper.html'},
 	Dandy: {link: 'https://crayoss.blogspot.com/p/dandy.html'},
 	Sprout: {link: 'https://crayoss.blogspot.com/p/sprout.html'},
 	Shelly: {link: 'https://crayoss.blogspot.com/p/shelly.html'},
 	Astro: {link: 'https://crayoss.blogspot.com/p/astro.html'},
 	Vee: {link: 'https://crayoss.blogspot.com/p/vee.html'},
 	Pebble: {link: 'https://crayoss.blogspot.com/p/pebble.html'},
-    Stump: {link: 'https://crayoss.blogspot.com/p/stump-log-cat.html'},
+    Stump: {link: 'https://crayoss.blogspot.com/p/stump.html'},
 	Yoko: {link: 'https://crayoss.blogspot.com/p/yoko.html'},
 	Winston: {link: 'https://crayoss.blogspot.com/p/winston.html'},
 	Winny: {link: 'https://crayoss.blogspot.com/p/winston.html'},
@@ -38,6 +38,7 @@ for (let i = 0; i < keywords.length; i++) {
     	}
   }
   /*^^ SCRIPT FOR ADDING AUTOMATIC HYPERLINKS ^^*/
+
 
 
 
