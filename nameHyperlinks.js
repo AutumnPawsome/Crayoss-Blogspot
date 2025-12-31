@@ -22,6 +22,7 @@ const keywordsObj = {
 	Michael: {link: 'https://crayoss.blogspot.com/p/michael.html'},
 	Harvest: {link: 'https://crayoss.blogspot.com/p/harvest.html'},
 	"Lord Jagger": {link: 'https://crayoss.blogspot.com/p/jagger.html'},
+	Cid: {link: 'https://crayoss.blogspot.com/p/cid.html'},
    	Vivian: {link: 'https://crayoss.blogspot.com/p/vivian.html'} 	
 };
 const keywords = Object.keys(keywordsObj);
@@ -38,6 +39,7 @@ for (let i = 0; i < keywords.length; i++) {
     	}
   }
   /*^^ SCRIPT FOR ADDING AUTOMATIC HYPERLINKS ^^*/
+
 
 
 
